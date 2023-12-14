@@ -48,7 +48,6 @@ header {
 
 #article {
     flex: 2;
-    /* Takes up 2 parts of the available space, making it twice as wide */
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -128,13 +127,4 @@ img:hover {
 
 #see-more-button:hover {
     background-color: #0056b3;
-}
-
-@media (max-width: 768px) {
-
-    /* Adjust layout for smaller screens */
-    .column {
-        flex: 100%;
-        padding: 10px;
-    }
 }
